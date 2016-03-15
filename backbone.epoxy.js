@@ -998,7 +998,7 @@
   // Epoxy.View
   // ----------
   var viewMap;
-  var viewProps = ['viewModel', 'bindings', 'bindingFilters', 'bindingHandlers', 'bindingSources', 'computeds'];
+  var viewProps = ['viewModel', 'bindings', 'bindingFilters', 'bindingHandlers', 'bindingSources', 'computeds', 'collectionView'];
 
   Epoxy.View = Backbone.View.extend({
     _super: Backbone.View,
